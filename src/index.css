@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+button {
+  background-color: black;
+  color: aliceblue;
+  padding:5px;
+  border-radius: 3px;
+}
+
+.displayEmployee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.display {
+  background-color: beige;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 3rem;
+  transition: all;
+}
+.display:hover {
+  transition: all;
+  background-color: bisque;
+
+}
+.addEmployee {
+  background-color: azure;
+}
+.employeeInfo {
+  padding: 2rem;
+}
+.form-data {
+  padding: 8px;
+}
+p {
+  margin: 0;
+}
+ 
+.editing {
+  margin: 10px;
+}
